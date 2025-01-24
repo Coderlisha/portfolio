@@ -8,11 +8,14 @@ require("dotenv").config();
 const app = express();
 // app.use(cors());
 app.use(bodyParser.json());
-app.use(
-  cors({
-    origin: "https://portfolio-bice-nine-69.vercel.app", // Allow only your frontend
-  })
-);
+
+const corsOptions = {
+  origin: "https://portfolio-bice-nine-69.vercel.app/",
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true,
+};
+
+app.use(cors(corsOptions));
 
 // Connect to MongoDB
 
