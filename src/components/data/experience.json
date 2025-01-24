@@ -1,0 +1,44 @@
+[
+   
+    {
+        "id": 1,
+        "role": "Java Developer Intern",
+        "organisation": "R3 Systems India Private Limited",
+        "startDate": "June, 2022",
+        "endDate": "Aug, 2022",
+        "location": "Nashik, India",
+        "experiences": [
+            "Achieved proficiency in core and advanced Java concepts.",
+            "Implemented JSP and Servlet as core technologies for designing web development projects.",
+            "Utilized R3 Systems for project development, gaining hands-on experience in a real-world environment."
+        ]
+        
+    },
+    {
+        "id": 2,
+        "role": "Spring Framework Intern",
+        "organisation": "R3 Systems India Private Limited",
+        "startDate": "Feb, 2024",
+        "endDate": "March, 2024",
+        "location": "Nashik, India",
+        "experiences": [
+            "Hands-on experience with Spring Framework, including Spring MVC, Hibernate, and ORM.",
+            "Proficient in MVC architecture and enterprise application development."
+        ]
+   
+    },
+    {
+        "id": 3,
+        "role": "Software Developer Intern",
+        "organisation": "Numetry Technologies",
+        "startDate": "Jan, 2025",
+        "endDate": "Present",
+        "location": "Pune, India",
+        "experiences": [
+            "Working on cutting-edge technologies to deliver high-quality solutions.",
+            "Leading a team for project planning and execution.",
+            "Implementing scalable solutions to meet client needs."
+        ]
+        
+    }
+]
