@@ -32,7 +32,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("https://portfolio-q3s5.vercel.app/api/contact", formData);
+      const response = await axios.post("https://portfolio-xjr4.vercel.app/api/contact", formData);
       alert(response.data.message);
       setFormData({ name: "", phone: "", message: "" }); // Reset the form
     } catch (error) {
