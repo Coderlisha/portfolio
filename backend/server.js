@@ -10,7 +10,7 @@ const app = express();
 app.use(bodyParser.json());
 
 const corsOptions = {
-  origin: "https://portfolio-bice-nine-69.vercel.app/",
+  origin: "https://portfolio-bice-nine-69.vercel.app",
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true,
 };
