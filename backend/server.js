@@ -6,8 +6,13 @@ require("dotenv").config();
 
 // Initialize app
 const app = express();
-app.use(cors());
+// app.use(cors());
 app.use(bodyParser.json());
+app.use(
+  cors({
+    origin: "https://portfolio-bice-nine-69.vercel.app", // Allow only your frontend
+  })
+);
 
 // Connect to MongoDB
 
@@ -17,7 +22,6 @@ mongoose
   .connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.error("MongoDB connection error:", err));
-
 
 // Create a Mongoose schema
 const messageSchema = new mongoose.Schema({
